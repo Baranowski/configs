@@ -48,6 +48,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'mileszs/ack.vim'
 Plugin 'BarretRen/vim-colorscheme'
+Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'mantiz/vim-plugin-dirsettings'
 Plugin 'scrooloose/nerdtree'
 Plugin 'skywind3000/asyncrun.vim'
@@ -78,6 +79,8 @@ nnoremap <Leader>t :CtrlPTag<CR>
 nnoremap <Leader>g :TagbarToggle<CR>:TagbarTogglePause<CR>
 set textwidth=80
 set colorcolumn=+1
+set background=light
+set t_Co=256
 colorscheme PaperColor
 
 " NERDTree
