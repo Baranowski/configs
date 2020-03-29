@@ -126,3 +126,9 @@ if executable('ag')
 endif
 
 autocmd BufNewFile,BufRead *.md,*.pmd set syntax=markdown
+
+" tagbar
+let g:tagbar_autofocus = 1
+let g:tagbar_show_balloon = 0
+let g:tagbar_autopreview = 0
+let g:tagbar_silent = 1
